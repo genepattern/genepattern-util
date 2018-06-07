@@ -22,7 +22,7 @@ setup(
                        'seaborn',
                        'validators',
                        'IPython',
-                       'humanfriendly'
+                       'humanfriendly',
                        'scikit-learn',
                    ],
 )
