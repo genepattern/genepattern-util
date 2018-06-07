@@ -12,5 +12,17 @@ setup(
     download_url='https://github.com/genepattern/genepattern-utils/archive/' + genepattern.utils.__version__ + '.tar.gz',
     keywords=['genepattern', 'genomics', 'bioinformatics'],
     license='BSD',
-    install_requires=['genepattern-python', 'numpy', 'scikit-learn']
+    install_requires = [  # I should probably add versions to these 2018-06-01
+                       'genepattern-python',
+                       'numpy',
+                       'scipy',
+                       'pandas',
+                       'matplotlib',
+                       'statsmodels',
+                       'seaborn',
+                       'validators',
+                       'IPython',
+                       'humanfriendly'
+                       'scikit-learn',
+                   ],
 )
